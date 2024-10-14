@@ -37,3 +37,9 @@ monitors:
     url: 'https://blog.cloudflare.com/'
     method: GET
     expectStatus: 200
+
+  - id: yems-kr
+    name: YEMS.kr
+    url: 'https://yems.kr/'
+    method: GET
+    expectStatus: 200
