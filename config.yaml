@@ -36,7 +36,7 @@ monitors:
   - id: i-yems-kr
     name: Images
     description: '이미지 업로드용 클라우드 스토리지' # default=empty
-    url: 'https://blog.yems.kr/'
+    url: 'https://i.yems.kr/'
     method: GET
     expectStatus: 200
     followRedirect: false # should fetch follow redirects, default=false
