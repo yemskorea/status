@@ -33,29 +33,11 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
-  - id: i-yems-kr
-    name: Images
-    description: '이미지 업로드용 클라우드 스토리지' # default=empty
-    url: 'https://i.yems.kr/'
-    method: GET
-    expectStatus: 404
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: true # allows the title to be a link, default=true
-
   - id: obsdn-yems-kr
     name: Obsidian
     description: '옵시디언' # default=empty
     url: 'https://obsdn.yems.kr/'
     method: GET
     expectStatus: 200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: true # allows the title to be a link, default=true
-
-  - id: static-obsdn-yems-kr
-    name: 'Obsidian Photos'
-    description: '옵시디언 문서 내 사진에 사용되는 클라우드 스토리지' # default=empty
-    url: 'https://static-obsdn.yems.kr/'
-    method: GET
-    expectStatus: 404
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
