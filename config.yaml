@@ -17,7 +17,6 @@ settings:
 monitors:
   - id: yems-kr
     name: YEMS
-    description: '공식 홈페이지' # default=empty
     url: 'https://yems.kr/'
     method: GET
     expectStatus: 200
