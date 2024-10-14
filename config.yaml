@@ -38,7 +38,7 @@ monitors:
     description: '이미지 업로드용 클라우드 스토리지' # default=empty
     url: 'https://i.yems.kr/'
     method: GET
-    expectStatus: 200
+    expectStatus: 404
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
@@ -56,7 +56,7 @@ monitors:
     description: '옵시디언 문서 내 사진에 사용되는 클라우드 스토리지' # default=empty
     url: 'https://static-obsdn.yems.kr/'
     method: GET
-    expectStatus: 200
+    expectStatus: 404
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
