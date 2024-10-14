@@ -59,12 +59,3 @@ monitors:
     expectStatus: 404
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
-
-  - id: status-yems-kr
-    name: Status
-    description: '상태 페이지' # default=empty
-    url: 'https://status.yems.kr/'
-    method: GET
-    expectStatus: 200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: true # allows the title to be a link, default=true
