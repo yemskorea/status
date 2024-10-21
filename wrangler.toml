@@ -12,6 +12,10 @@ crons = ["* * * * *"]
 bucket = "out"
 entry-point = "./"
 
+[observability]
+enabled = true
+head_sampling_rate = 1
+
 # uncomment and adjust following if you are not using GitHub Actions
 #[env.production]
 #kv-namespaces = [{binding="KV_STATUS_PAGE", id="xxxx", preview_id=""}]
